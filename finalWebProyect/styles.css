@@ -1,0 +1,57 @@
+.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Tiro Bangla', serif;
+}
+
+.title{
+    font-family: 'Tiro Bangla', serif;
+    text-align: center;
+}
+
+.body_home {
+    background-image: url("assets/img/homeIndex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome{
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.body_login {
+    background-image: url("assets/img/login.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.body_registro {
+    background-image: url("assets/img/registro.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
