@@ -1,0 +1,162 @@
+.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Tiro Bangla', serif;
+}
+
+.title{
+    font-family: 'Tiro Bangla', serif;
+    text-align: center;
+}
+
+.body_index {
+    background-image: url("assets/img/homeIndex.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome{
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+    background-color: rgba(21, 161, 196, 0.199);
+    width: 100%;
+    margin-bottom: 4%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.body_login {
+    background-image: url("assets/img/registro.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.body_registro {
+    background-image: url("assets/img/registro.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.body_db {
+    background-image: url("assets/img/db_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.iconfit{
+    height: 30px;
+}
+
+.icon:hover{
+    color: rgb(123, 195, 228);
+    zoom: 110%;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+.footer h3{
+    font-size: 18px;
+}
+
+.footer{
+    font-family: 'Oswald', sans-serif;
+}
+
+.iconinfo{
+    color: white;
+    text-decoration: none;
+}
+
+.iconinfo:hover{
+    color: white;
+}
+
+.rockSalt{
+    font-family: 'Rock Salt', cursive;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.home{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon_db{
+    width: 50%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.icon_db:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.afooter{
+    text-decoration: none;
+    color: white;
+}
+
+.afooter:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.db_table{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 1%;
+    height: 78%;
+
+}
+
+thead{
+    font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
